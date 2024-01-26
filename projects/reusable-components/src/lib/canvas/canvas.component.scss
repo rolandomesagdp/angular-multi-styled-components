@@ -1,0 +1,13 @@
+:host {
+   --height: 100px;
+   --width: 100px;
+   --border-radius: 4px;
+ }
+
+
+.canvas {
+   width: var(--width);
+   height: var(--height);
+   border-radius: var(--border-radius);
+   background-color: red;
+}

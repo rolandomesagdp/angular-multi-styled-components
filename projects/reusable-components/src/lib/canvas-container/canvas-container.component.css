@@ -1,0 +1,11 @@
+.squared {
+   --height: 100px;
+   --width: 100px;
+   --border-radius: 4px;
+}
+
+.rounded {
+   --height: 100px;
+   --width: 100px;
+   --border-radius: 50px;
+}
