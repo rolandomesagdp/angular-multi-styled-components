@@ -7,6 +7,6 @@ import { CONFIGURATOR_APPEARANCE } from 'reusable-components';
 export const appConfig: ApplicationConfig = {
    providers: [
       provideRouter(routes),
-      { provide: CONFIGURATOR_APPEARANCE, useValue: "squared" }
+      { provide: CONFIGURATOR_APPEARANCE, useValue: "rounded" }
    ]
 };
