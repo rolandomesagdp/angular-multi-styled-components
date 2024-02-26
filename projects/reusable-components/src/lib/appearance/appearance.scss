@@ -1,0 +1,10 @@
+$squared-mat-form-field-border-radius: 0px;
+$rounded-mat-form-field-border-radius: 26px;
+
+@mixin squared-mat-form-fields() {
+    --mdc-outlined-text-field-container-shape: #{$squared-mat-form-field-border-radius};
+}
+
+@mixin rounded-mat-form-fields() {
+    --mdc-outlined-text-field-container-shape: #{$rounded-mat-form-field-border-radius};
+}

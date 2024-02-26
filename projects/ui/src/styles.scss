@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../../../theme/configurator-material-theme.scss";
+@import "../../reusable-components/src/lib/appearance/appearance.scss";
+
+html {
+    @include rounded-mat-form-fields();
+    //@include squared-mat-form-fields();
+}
