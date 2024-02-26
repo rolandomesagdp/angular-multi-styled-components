@@ -16,7 +16,7 @@ import { provideAnimations } from '@angular/platform-browser/animations';
     provideAnimations()
   ],
   templateUrl: './material-inputs.component.html',
-  styleUrl: './material-inputs.component.css'
+  styleUrl: './material-inputs.component.scss'
 })
 export class MaterialInputsComponent {
 

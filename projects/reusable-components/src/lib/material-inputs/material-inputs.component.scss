@@ -1,0 +1,10 @@
+@import '../appearance/appearance.scss';
+
+:host {
+    @include rounded-mat-form-fields();
+}
+
+.element-margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
