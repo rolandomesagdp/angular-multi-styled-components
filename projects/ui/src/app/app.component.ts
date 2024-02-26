@@ -6,13 +6,16 @@ import { CanvasComponent, CanvasContainerComponent, MaterialInputsComponent } fr
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet, 
-    CanvasComponent, 
-    CanvasContainerComponent, 
-    MaterialInputsComponent ],
+    RouterOutlet,
+    CanvasComponent,
+    CanvasContainerComponent,
+    MaterialInputsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'ui';
+
+  constructor() {
+  }
 }

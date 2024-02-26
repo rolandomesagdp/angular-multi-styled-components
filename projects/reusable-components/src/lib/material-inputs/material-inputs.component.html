@@ -1,16 +1,16 @@
 <form class="example-form">
   <mat-label>Favorite food</mat-label>
-  <mat-form-field class="test-form-field">
+  <mat-form-field class="element-margin">
     <input matInput placeholder="Ex. Pizza" value="Sushi">
   </mat-form-field>
 
   <mat-label>Leave a comment</mat-label>
-  <mat-form-field class="test-form-field">
+  <mat-form-field class="element-margin">
     <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
   </mat-form-field>
 
   <mat-label>Cars</mat-label>
-  <mat-form-field class="test-form-field">
+  <mat-form-field class="element-margin">
     <mat-select>
       <mat-option value="option1">Option 1</mat-option>
       <mat-option value="option2">Option 2</mat-option>
@@ -18,12 +18,16 @@
     </mat-select>
   </mat-form-field>
 
-  <mat-checkbox class="test-form-field">Check me!</mat-checkbox>
+  <mat-checkbox color="primary" class="element-margin">Check me!</mat-checkbox>
 
-  <mat-radio-group class="test-form-field" aria-label="Select an option">
+  <mat-radio-group color="primary" class="element-margin" aria-label="Select an option">
     <mat-radio-button value="1">Option 1</mat-radio-button>
     <mat-radio-button value="2">Option 2</mat-radio-button>
   </mat-radio-group>
 
-  <button type="submit" mat-flat-button color="primary">Save</button>
+  <br />
+  <button class="element-margin" type="submit" mat-button color="primary">Basic</button>
+  <button class="element-margin" type="submit" mat-flat-button color="primary">Flat</button>
+  <button class="element-margin" type="submit" mat-raised-button color="primary">Raised</button>
+  <button class="element-margin" type="submit" mat-stroked-button color="primary">Stroked</button>
 </form>

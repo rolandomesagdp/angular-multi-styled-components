@@ -1,5 +1,5 @@
 import { Component, Inject, Input, Optional } from '@angular/core';
-import { CONFIGURATOR_APPEARANCE, ConfiguratorAppearance } from '../appearance/appearance.injectiontoken';
+import { APPLICATION_APPEARANCE, ApplicationAppearance } from '../appearance/appearance.token';
 import { CanvasComponent } from '../canvas/canvas.component';
 
 @Component({
@@ -12,7 +12,7 @@ import { CanvasComponent } from '../canvas/canvas.component';
 })
 export class CanvasContainerComponent {
 
-  constructor(@Inject(CONFIGURATOR_APPEARANCE) public appearance: ConfiguratorAppearance) {
+  constructor(@Inject(APPLICATION_APPEARANCE) public appearance: ApplicationAppearance) {
   }
 
 }

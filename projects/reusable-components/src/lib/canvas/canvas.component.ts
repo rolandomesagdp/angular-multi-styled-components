@@ -1,5 +1,5 @@
 import { Component, Inject, Optional } from '@angular/core';
-import { CONFIGURATOR_APPEARANCE, ConfiguratorAppearance } from '../appearance/appearance.injectiontoken';
+import { APPLICATION_APPEARANCE, ApplicationAppearance } from '../appearance/appearance.token';
 
 @Component({
    selector: 'lib-canvas',
@@ -11,6 +11,6 @@ import { CONFIGURATOR_APPEARANCE, ConfiguratorAppearance } from '../appearance/a
 })
 export class CanvasComponent {
 
-   constructor(@Inject(CONFIGURATOR_APPEARANCE) public appearance: ConfiguratorAppearance) {
+   constructor(@Inject(APPLICATION_APPEARANCE) public appearance: ApplicationAppearance) {
    }
 }

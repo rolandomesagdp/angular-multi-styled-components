@@ -1,10 +1,36 @@
-$squared-mat-form-field-border-radius: 0px;
-$rounded-mat-form-field-border-radius: 26px;
+$squared-radius: 0px;
+$rounded-radius: 26px;
 
 @mixin squared-mat-form-fields() {
-    --mdc-outlined-text-field-container-shape: #{$squared-mat-form-field-border-radius};
+    // mat-form-field
+    --mdc-outlined-text-field-container-shape: #{$squared-radius};
+
+    // mat-button
+    --mdc-text-button-container-shape: #{$squared-radius};
+    
+    // mat-flat-button
+    --mdc-filled-button-container-shape: #{$squared-radius};
+
+    // mat-raised-button
+    --mdc-protected-button-container-shape: #{$squared-radius};
+
+    // mat-stroked-button
+    --mdc-outlined-button-container-shape: #{$squared-radius};
 }
 
 @mixin rounded-mat-form-fields() {
-    --mdc-outlined-text-field-container-shape: #{$rounded-mat-form-field-border-radius};
+    // mat-form-field
+    --mdc-outlined-text-field-container-shape: #{$rounded-radius};
+
+    // mat-button
+    --mdc-text-button-container-shape: #{$rounded-radius};
+    
+    // mat-flat-button
+    --mdc-filled-button-container-shape: #{$rounded-radius};
+
+    // mat-raised-button
+    --mdc-protected-button-container-shape: #{$rounded-radius};
+
+    // mat-stroked-button
+    --mdc-outlined-button-container-shape: #{$rounded-radius};
 }
